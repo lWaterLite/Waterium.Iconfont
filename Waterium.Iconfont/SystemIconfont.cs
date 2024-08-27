@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 
 namespace Waterium.Iconfont;
@@ -25,7 +24,6 @@ public class SystemIconfont : TextBlock
         new()
         {
             { SystemIconfontType.Close, "Close" },
-            { SystemIconfontType.About, "About" },
             { SystemIconfontType.Minimize, "Minimize" },
             { SystemIconfontType.Maximize, "Maximize" },
             { SystemIconfontType.MaximizeFill, "MaximizeFill" },
@@ -34,7 +32,8 @@ public class SystemIconfont : TextBlock
             { SystemIconfontType.Search, "Search" },
             { SystemIconfontType.Love, "Love" },
             { SystemIconfontType.Home, "Home" },
-            { SystemIconfontType.More, "More" }
+            { SystemIconfontType.More, "More" },
+            { SystemIconfontType.About, "About" },
         };
 
     static SystemIconfont()
@@ -57,11 +56,7 @@ public class SystemIconfont : TextBlock
     public SystemIconfontType Icon
     {
         get => (SystemIconfontType)GetValue(SystemIconTypeProperty);
-        set
-        {
-            SetValue(SystemIconTypeProperty, value);
-            UpdateText();
-        }
+        set => SetValue(SystemIconTypeProperty, value);
     }
 
     private void UpdateText()

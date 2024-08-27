@@ -8,6 +8,12 @@
     <sys:String x:Key="Minimize">&#xe65a;</sys:String>
     <sys:String x:Key="Maximize">&#xe65d;</sys:String>
     <sys:String x:Key="MaximizeFill">&#xe65e;</sys:String>
+    <sys:String x:Key="Setting">&#xe653;</sys:String>
+    <sys:String x:Key="SettingFill">&#xe654;</sys:String>
+    <sys:String x:Key="Search">&#xe645;</sys:String>
+    <sys:String x:Key="Love">&#xe643;</sys:String>
+    <sys:String x:Key="Home">&#xe63f;</sys:String>
+    <sys:String x:Key="More">&#xe615;</sys:String>
     <sys:String x:Key="About">&#xe616;</sys:String>
     
     
