@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace Waterium.Iconfont;
+namespace Waterium.Iconfont.SystemIconfont;
 
 public class SystemIconfont : TextBlock
 {
@@ -63,7 +63,7 @@ public class SystemIconfont : TextBlock
     {
         ResourceDictionary resourceDictionary = new()
         {
-            Source = new Uri("/Waterium.Iconfont;component/Themes/Generic.xaml", UriKind.Relative)
+            Source = new Uri("/Waterium.Iconfont.SystemIconfont;component/Themes/Generic.xaml", UriKind.Relative)
         };
         if (IconTypeResourceMap.TryGetValue(Icon, out string? resourceKey))
         {

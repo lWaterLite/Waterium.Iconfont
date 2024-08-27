@@ -1,8 +1,8 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib"
-                    xmlns:wtr-If="clr-namespace:Waterium.Iconfont">
-    <FontFamily x:Key="SystemIconFontFamily">/Waterium.Iconfont;component/Assets/#systemiconfont</FontFamily>
+                    xmlns:wtr-If="clr-namespace:Waterium.Iconfont.SystemIconfont">
+    <FontFamily x:Key="SystemIconFontFamily">/Waterium.Iconfont.SystemIconfont;component/Assets/#systemiconfont</FontFamily>
     
     <sys:String x:Key="Close">&#xe661;</sys:String>
     <sys:String x:Key="Minimize">&#xe65a;</sys:String>

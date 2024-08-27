@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="/Waterium.Iconfont;component/Themes/SystemIconfont.xaml" />
+        <ResourceDictionary Source="/Waterium.Iconfont.SystemIconfont;component/Themes/SystemIconfont.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
