@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\iconfont-systemicon.ttf" />
+      <None Remove="Assets\iconfont.ttf" />
+      <None Remove="Assets\chibi_512.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="Assets\iconfont.ttf" />
+    </ItemGroup>
+
+</Project>

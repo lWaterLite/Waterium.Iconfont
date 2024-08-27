@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:wtr-If="clr-namespace:Waterium.Iconfont">
+    <FontFamily x:Key="SystemIconFontFamily">/Waterium.Iconfont;component/Assets/#systemiconfont</FontFamily>
+    
+    <sys:String x:Key="Close">&#xe661;</sys:String>
+    <sys:String x:Key="Minimize">&#xe65a;</sys:String>
+    <sys:String x:Key="Maximize">&#xe65d;</sys:String>
+    <sys:String x:Key="MaximizeFill">&#xe65e;</sys:String>
+    <sys:String x:Key="About">&#xe616;</sys:String>
+    
+    
+    <Style TargetType="wtr-If:SystemIconfont">
+        <Setter Property="FontFamily" Value="{StaticResource SystemIconFontFamily}"/>
+    </Style>
+</ResourceDictionary>
